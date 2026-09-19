@@ -1,0 +1,9 @@
+build/
+build-device/
+DerivedData/
+*.xcresult
+xcuserdata/
+*.xcuserstate
+Config/Local.xcconfig
+.DS_Store
+TestSupport/__pycache__/

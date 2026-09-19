@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DD07A2F2404853D727E9841 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CF611B8CF555D848D1058E /* AuthView.swift */; };
+		219D89D477F0F50374CF8B08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 037F46E44379C06137F62A04 /* Assets.xcassets */; };
+		29F5ED2C8396F07BEAE298A2 /* DraftViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A99E2B2A3F1746B08BCAAAE /* DraftViews.swift */; };
+		347645587294BE24B8B2C0B3 /* CekSepetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9F8550C051BC202A0263B4 /* CekSepetTests.swift */; };
+		37DA291B5B5445FA454EA933 /* CatalogStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131C1C80AFF28E61C3B55512 /* CatalogStore.swift */; };
+		40292F2308C0BCE2EE2E32A5 /* CatalogViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D401923DC125399864DED2A /* CatalogViews.swift */; };
+		44F0B817D8A09451BB537CC0 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 35FD6F9CC69BDA572B08A479 /* PrivacyInfo.xcprivacy */; };
+		4CE5702FFEDAA065E8DE5612 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C51B75F807B21595BEE8E3A /* OnboardingView.swift */; };
+		615FD0F56934B5D6537AEDEB /* KeychainStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6826C727586F2193F30EC133 /* KeychainStore.swift */; };
+		6F9E5A0109965F67F9BA3187 /* CekSepetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3354271EB380A1B7AACAA21E /* CekSepetApp.swift */; };
+		8D99D7866A88A9B0AA4BC6FD /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B382877E7DA9099409F01D75 /* APIClient.swift */; };
+		991A8D8A34A1EACD367F1F4E /* SupportViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6EC1869D6F2925CD67F639 /* SupportViews.swift */; };
+		9DDF0A239C853F080A76391F /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4986B6AD3F09725561976287 /* Components.swift */; };
+		9FD9847B51ADD973E529A803 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D28D2FEA730C2E241A8BF86 /* Models.swift */; };
+		AEAB9A72901FAE574F5AA8A8 /* ProfileViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA9C7E6B0C6E100D78E3020 /* ProfileViews.swift */; };
+		DDA5B67601B5D5CBBF915C57 /* AuthFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EE2B12D85DFE0FAE43F338 /* AuthFlow.swift */; };
+		EC5DAA1D2E5CBAD32F23CD24 /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5338D9852595A5DA69EFBFD2 /* SessionStore.swift */; };
+		F4E3F6D061A4E0FDDF9181E8 /* CekSepetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CB34F80106CAF6DD1B591F /* CekSepetUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24538F1B50E0682413C988E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 523DB01C50F291A49F3CB430 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57D39FDFB03171F4143609C6;
+			remoteInfo = CekSepet;
+		};
+		D79E125DD84B5C658B6F5DEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 523DB01C50F291A49F3CB430 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57D39FDFB03171F4143609C6;
+			remoteInfo = CekSepet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		037F46E44379C06137F62A04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03CB34F80106CAF6DD1B591F /* CekSepetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CekSepetUITests.swift; sourceTree = "<group>"; };
+		0A226487B23EA6F2BFA179A5 /* CekSepet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CekSepet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A99E2B2A3F1746B08BCAAAE /* DraftViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraftViews.swift; sourceTree = "<group>"; };
+		0C51B75F807B21595BEE8E3A /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		0D401923DC125399864DED2A /* CatalogViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogViews.swift; sourceTree = "<group>"; };
+		0D9891E1BE360F25870E41D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		131C1C80AFF28E61C3B55512 /* CatalogStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogStore.swift; sourceTree = "<group>"; };
+		3354271EB380A1B7AACAA21E /* CekSepetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CekSepetApp.swift; sourceTree = "<group>"; };
+		35FD6F9CC69BDA572B08A479 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		4986B6AD3F09725561976287 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		5338D9852595A5DA69EFBFD2 /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
+		5CA9C7E6B0C6E100D78E3020 /* ProfileViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViews.swift; sourceTree = "<group>"; };
+		6826C727586F2193F30EC133 /* KeychainStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainStore.swift; sourceTree = "<group>"; };
+		7C9F8550C051BC202A0263B4 /* CekSepetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CekSepetTests.swift; sourceTree = "<group>"; };
+		9CBDEC8AF9C2D8A0F27232F2 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		9D28D2FEA730C2E241A8BF86 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		ACBBB8C3026979198FCFFC5E /* CekSepetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CekSepetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B382877E7DA9099409F01D75 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		C1EE2B12D85DFE0FAE43F338 /* AuthFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthFlow.swift; sourceTree = "<group>"; };
+		C5A8A50B5D5F7ACDD042ADA1 /* CekSepetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CekSepetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB6EC1869D6F2925CD67F639 /* SupportViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportViews.swift; sourceTree = "<group>"; };
+		F1CF611B8CF555D848D1058E /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		F96E89803D8AD396B136145E /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1FD22ABCC386B6ABCC8EF5F6 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3354271EB380A1B7AACAA21E /* CekSepetApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		47F613C7AD63D64EAC6C4985 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				037F46E44379C06137F62A04 /* Assets.xcassets */,
+				0D9891E1BE360F25870E41D7 /* Info.plist */,
+				35FD6F9CC69BDA572B08A479 /* PrivacyInfo.xcprivacy */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4A6D74964D0685BD402F55D6 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				4986B6AD3F09725561976287 /* Components.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		5A5CE834EEADDEE5E3C61560 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				F96E89803D8AD396B136145E /* Debug.xcconfig */,
+				9CBDEC8AF9C2D8A0F27232F2 /* Release.xcconfig */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		620CF2CF825D2DDD7C757081 /* CekSepetTests */ = {
+			isa = PBXGroup;
+			children = (
+				7C9F8550C051BC202A0263B4 /* CekSepetTests.swift */,
+			);
+			path = CekSepetTests;
+			sourceTree = "<group>";
+		};
+		8C9052761EF2B5A5188353E5 /* CekSepetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03CB34F80106CAF6DD1B591F /* CekSepetUITests.swift */,
+			);
+			path = CekSepetUITests;
+			sourceTree = "<group>";
+		};
+		D8777386B05D9BDB165CF1BB = {
+			isa = PBXGroup;
+			children = (
+				F1A9FFACA78CF0A54B9A7CC6 /* CekSepet */,
+				620CF2CF825D2DDD7C757081 /* CekSepetTests */,
+				8C9052761EF2B5A5188353E5 /* CekSepetUITests */,
+				5A5CE834EEADDEE5E3C61560 /* Config */,
+				FF56151144B52C7785004EA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE664232309F06535A8E2D60 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				C1EE2B12D85DFE0FAE43F338 /* AuthFlow.swift */,
+				F1CF611B8CF555D848D1058E /* AuthView.swift */,
+				0D401923DC125399864DED2A /* CatalogViews.swift */,
+				0A99E2B2A3F1746B08BCAAAE /* DraftViews.swift */,
+				0C51B75F807B21595BEE8E3A /* OnboardingView.swift */,
+				5CA9C7E6B0C6E100D78E3020 /* ProfileViews.swift */,
+				DB6EC1869D6F2925CD67F639 /* SupportViews.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		F1A9FFACA78CF0A54B9A7CC6 /* CekSepet */ = {
+			isa = PBXGroup;
+			children = (
+				1FD22ABCC386B6ABCC8EF5F6 /* App */,
+				F571298473399C268903655C /* Core */,
+				4A6D74964D0685BD402F55D6 /* Design */,
+				DE664232309F06535A8E2D60 /* Features */,
+				47F613C7AD63D64EAC6C4985 /* Resources */,
+			);
+			path = CekSepet;
+			sourceTree = "<group>";
+		};
+		F571298473399C268903655C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B382877E7DA9099409F01D75 /* APIClient.swift */,
+				131C1C80AFF28E61C3B55512 /* CatalogStore.swift */,
+				6826C727586F2193F30EC133 /* KeychainStore.swift */,
+				9D28D2FEA730C2E241A8BF86 /* Models.swift */,
+				5338D9852595A5DA69EFBFD2 /* SessionStore.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		FF56151144B52C7785004EA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A226487B23EA6F2BFA179A5 /* CekSepet.app */,
+				ACBBB8C3026979198FCFFC5E /* CekSepetTests.xctest */,
+				C5A8A50B5D5F7ACDD042ADA1 /* CekSepetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57D39FDFB03171F4143609C6 /* CekSepet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C29A2D3BBDC117755C640BD5 /* Build configuration list for PBXNativeTarget "CekSepet" */;
+			buildPhases = (
+				031F6EE8C5380BCBC85730FD /* Sources */,
+				11B77A0B735F048FE45CD4F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CekSepet;
+			packageProductDependencies = (
+			);
+			productName = CekSepet;
+			productReference = 0A226487B23EA6F2BFA179A5 /* CekSepet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		977ADA0F4296AD86CA939F91 /* CekSepetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69DE1907F672F13F1B480DAD /* Build configuration list for PBXNativeTarget "CekSepetTests" */;
+			buildPhases = (
+				30C77D4B4F5AE6396CDC3DE2 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE8E44D57DAD12B49A4DBFC1 /* PBXTargetDependency */,
+			);
+			name = CekSepetTests;
+			packageProductDependencies = (
+			);
+			productName = CekSepetTests;
+			productReference = ACBBB8C3026979198FCFFC5E /* CekSepetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EAE45611671E9EDB73F9DB42 /* CekSepetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C57277D5C8285618BAB9ECE /* Build configuration list for PBXNativeTarget "CekSepetUITests" */;
+			buildPhases = (
+				560DE49CFD9254AD705BE488 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92814D36756CE295D0C0B482 /* PBXTargetDependency */,
+			);
+			name = CekSepetUITests;
+			packageProductDependencies = (
+			);
+			productName = CekSepetUITests;
+			productReference = C5A8A50B5D5F7ACDD042ADA1 /* CekSepetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		523DB01C50F291A49F3CB430 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					57D39FDFB03171F4143609C6 = {
+						ProvisioningStyle = Automatic;
+					};
+					977ADA0F4296AD86CA939F91 = {
+						ProvisioningStyle = Automatic;
+					};
+					EAE45611671E9EDB73F9DB42 = {
+						ProvisioningStyle = Automatic;
+						TestTargetID = 57D39FDFB03171F4143609C6;
+					};
+				};
+			};
+			buildConfigurationList = DB96E5970961D9BED482518A /* Build configuration list for PBXProject "CekSepet" */;
+			developmentRegion = tr;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				tr,
+			);
+			mainGroup = D8777386B05D9BDB165CF1BB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FF56151144B52C7785004EA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57D39FDFB03171F4143609C6 /* CekSepet */,
+				977ADA0F4296AD86CA939F91 /* CekSepetTests */,
+				EAE45611671E9EDB73F9DB42 /* CekSepetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11B77A0B735F048FE45CD4F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219D89D477F0F50374CF8B08 /* Assets.xcassets in Resources */,
+				44F0B817D8A09451BB537CC0 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		031F6EE8C5380BCBC85730FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D99D7866A88A9B0AA4BC6FD /* APIClient.swift in Sources */,
+				DDA5B67601B5D5CBBF915C57 /* AuthFlow.swift in Sources */,
+				0DD07A2F2404853D727E9841 /* AuthView.swift in Sources */,
+				37DA291B5B5445FA454EA933 /* CatalogStore.swift in Sources */,
+				40292F2308C0BCE2EE2E32A5 /* CatalogViews.swift in Sources */,
+				6F9E5A0109965F67F9BA3187 /* CekSepetApp.swift in Sources */,
+				9DDF0A239C853F080A76391F /* Components.swift in Sources */,
+				29F5ED2C8396F07BEAE298A2 /* DraftViews.swift in Sources */,
+				615FD0F56934B5D6537AEDEB /* KeychainStore.swift in Sources */,
+				9FD9847B51ADD973E529A803 /* Models.swift in Sources */,
+				4CE5702FFEDAA065E8DE5612 /* OnboardingView.swift in Sources */,
+				AEAB9A72901FAE574F5AA8A8 /* ProfileViews.swift in Sources */,
+				EC5DAA1D2E5CBAD32F23CD24 /* SessionStore.swift in Sources */,
+				991A8D8A34A1EACD367F1F4E /* SupportViews.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30C77D4B4F5AE6396CDC3DE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				347645587294BE24B8B2C0B3 /* CekSepetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		560DE49CFD9254AD705BE488 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4E3F6D061A4E0FDDF9181E8 /* CekSepetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92814D36756CE295D0C0B482 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57D39FDFB03171F4143609C6 /* CekSepet */;
+			targetProxy = D79E125DD84B5C658B6F5DEF /* PBXContainerItemProxy */;
+		};
+		FE8E44D57DAD12B49A4DBFC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57D39FDFB03171F4143609C6 /* CekSepet */;
+			targetProxy = 24538F1B50E0682413C988E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F3FC3AD31A357CF8AC5586B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F96E89803D8AD396B136145E /* Debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2GZ67MJHTZ;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CekSepet/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ceksepet.ios;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F494DD66AB12577A4F23B10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2GZ67MJHTZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ceksepet.CekSepetTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CekSepet.app/CekSepet";
+			};
+			name = Debug;
+		};
+		4C48B16F4F300C849104A465 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E31DA8370E426A535E9EC94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2GZ67MJHTZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ceksepet.CekSepetTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CekSepet.app/CekSepet";
+			};
+			name = Release;
+		};
+		81E974367CDD2EEC3032ED59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2GZ67MJHTZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ceksepet.CekSepetUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CekSepet;
+			};
+			name = Debug;
+		};
+		8F2C52660CA1292731714B4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9B0B4F6A41DFC130467D493C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2GZ67MJHTZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ceksepet.CekSepetUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CekSepet;
+			};
+			name = Release;
+		};
+		B9FFE07CD61FF60D904C7C7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CBDEC8AF9C2D8A0F27232F2 /* Release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2GZ67MJHTZ;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CekSepet/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ceksepet.ios;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C57277D5C8285618BAB9ECE /* Build configuration list for PBXNativeTarget "CekSepetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81E974367CDD2EEC3032ED59 /* Debug */,
+				9B0B4F6A41DFC130467D493C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		69DE1907F672F13F1B480DAD /* Build configuration list for PBXNativeTarget "CekSepetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F494DD66AB12577A4F23B10 /* Debug */,
+				5E31DA8370E426A535E9EC94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C29A2D3BBDC117755C640BD5 /* Build configuration list for PBXNativeTarget "CekSepet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F3FC3AD31A357CF8AC5586B /* Debug */,
+				B9FFE07CD61FF60D904C7C7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DB96E5970961D9BED482518A /* Build configuration list for PBXProject "CekSepet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C48B16F4F300C849104A465 /* Debug */,
+				8F2C52660CA1292731714B4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 523DB01C50F291A49F3CB430 /* Project object */;
+}
